@@ -51,4 +51,4 @@ jobs:
         app-name: 'tonytestfunc'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_51e5375220c14e6084ec9fbc2375c351 }}
-        package: .
+        package: ./dist
